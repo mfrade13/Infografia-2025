@@ -7,6 +7,7 @@
 local CW = display.contentWidth
 local CH = display.contentHeight
 
+local transicion_titulo
 local fondo = display.newImageRect("bg_3.jpg", CW, CH)
 --fondo.anchorX = 0; fondo.anchorY = 0
 fondo.x = CW/2
@@ -25,15 +26,49 @@ local titulo = display.newText("Game", CW/2, CH/6, native.systemFont, 55)
 print(titulo.size)
 titulo.size = 30; titulo.alpha= 0.2
 
+local btn = display.newImageRect("btn_play.png", 100, 100)
+btn.x = CW/2
+btn.y = 650
+
 function moverFruta()
     print("Esta funcion esta en el onComplete de mi transicion")
-    transition.to(fruta, {time =300, alpha=0.5, x = -100})
+    print(transicion_titulo)
+    transition.to(fruta, {time =300, delay=100, alpha=0.5, x = -100})
+    transition.pause()
 end
 
 function repetir()
     print("estamos repitiendo iteraciones durante la transicion")
 end
-transition.to(fruta, {time=3000, x=600, y = 500, rotation=1200, onComplete=moverFruta})
-
+transicion_titulo = transition.to(titulo, {time=1000, size = 90, alpha = 1, iterations = 5, tag="crecer", onRepeat=repetir})
+transition.to(fruta, {time=3000, x=600, y = 500, rotation=1200, transition=easing.inBack, onComplete=moverFruta})
 transition.to(fruta,{x = 300, delay=4000})
-transition.to(titulo, {time=1000, size = 90, alpha = 1, iterations = 5, tag="titulo", onRepeat=repetir})
+
+function resumir(event)
+    if event.phase == "began" then
+        print("Fase bega")
+    elseif event.phase == "moved" then
+        print("Fase moved")
+    elseif event.phase == "ended" then
+        print("Fase ended")
+        transition.resume("crecer")
+    end
+end
+
+function btn:touch( event)
+    if event.phase == "began" then
+        print("Fase began, posicion X" .. self.x )
+        print("Poscion del click " .. event.x)
+    elseif event.phase == "moved" then
+        print("Fase moved")
+
+    elseif event.phase == "ended" then
+        print("Fase ended")
+        self.x = event.x
+        self.y = event.y
+        transition.resume("crecer")
+    end
+end
+
+btn:addEventListener("touch", btn)
+--btn:addEventListener("touch", resumir)
