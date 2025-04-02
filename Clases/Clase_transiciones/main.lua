@@ -9,7 +9,11 @@ local CH = display.contentHeight
 
 local transicion_titulo
 local frutas = {}
-local fondo = display.newImageRect("bg_3.jpg", CW, CH)
+local grupo_fondo = display.newGroup()
+local grupo_intermedio = display.newGroup()
+local fondo = display.newImageRect( "bg_3.jpg", CW, CH)
+grupo_fondo:insert(1, fondo)
+print(grupo_fondo.x, grupo_fondo.y)
 --fondo.anchorX = 0; fondo.anchorY = 0
 fondo.x = CW/2
 fondo.y = CH/2
@@ -73,10 +77,13 @@ function btn:touch( event)
         self.y = event.y
         transition.resume("crecer")
         self.isVisible = false
-        fondo.alpha = 0.1
-        for i=1, #frutas do
-            frutas[i].alpha = 0.3
-        end
+        fondo.alpha = 1
+        -- for i=1, #frutas do
+        --     frutas[i].alpha = 0.3
+        -- end
+        grupo_intermedio.alpha = 0.3
+        grupo_intermedio.x = 500
+        grupo_fondo.y = 400
     end
     return 1
 end
@@ -110,7 +117,7 @@ end
 
 
 for i = 1,10 do
-    local fruta = display.newImageRect("fruta.png", 100, 100)
+    local fruta = display.newImageRect(grupo_intermedio, "fruta.png", 100, 100)
     fruta.x = math.random(100, CW-100)
     fruta.y = math.random(100, CH-100)
     print(fruta.x, fruta.y)
@@ -120,7 +127,7 @@ for i = 1,10 do
     frutas[i] = fruta
 end
 
-print(frutas[6].x)
+
 
 fruta.touch = removerFruta
 fondo.touch = removerFruta
