@@ -1,0 +1,6 @@
+.DS_Store*
+**/Images.xcassets
+**/AndroidResources
+**/LauchScreen.storyboardc
+**/LaunchScreen.storyBoardc/
+

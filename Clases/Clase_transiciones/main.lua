@@ -116,18 +116,44 @@ function frutasRemovidas( self, event )
 end
 
 
-for i = 1,10 do
-    local fruta = display.newImageRect(grupo_intermedio, "fruta.png", 100, 100)
-    fruta.x = math.random(100, CW-100)
-    fruta.y = math.random(100, CH-100)
-    print(fruta.x, fruta.y)
+-- for i = 1,10 do
+--     local fruta = display.newImageRect(grupo_intermedio, "fruta.png", 100, 100)
+--     fruta.x = math.random(100, CW-100)
+--     fruta.y = math.random(100, CH-100)
+--     print(fruta.x, fruta.y)
 
-    fruta.touch = frutasRemovidas
-    fruta:addEventListener("touch", fruta)
-    frutas[i] = fruta
-end
+--     fruta.touch = frutasRemovidas
+--     fruta:addEventListener("touch", fruta)
+--     frutas[i] = fruta
+-- end
+
+print(btn.x, btn.y)
+btn:translate(100, 50)
+print(btn.x, btn.y)
 
 
+local puntos = {0, 0 , 90, 0, 90, 90, 0, 90}
+local polygon = display.newPolygon(grupo_intermedio, CW/2, CH/2, puntos )
+--polygon:rotate(45)
+polygon.rotation =45
+newx = math.cos(math.rad(45)) * 0 - math.sin(math.rad(45)) * 0
+newy = math.sin(math.rad(45)) * 0 + math.cos(math.rad(45)) * 0
+
+newx2 = math.cos(math.rad(45)) * 0 - math.sin(math.rad(45)) * 90
+newy2 = math.sin(math.rad(45)) * 0 + math.cos(math.rad(45)) * 90
+
+
+
+
+local newPoints = {0,0 ,63, 63, 7,127, -63, 63}
+print(newx2, newy2)
+print(math.cos(math.rad(45)), math.sin(45))
+
+local polygon2 = display.newPolygon(grupo_intermedio, CW/2, CH/2, newPoints )
+polygon2:setFillColor(1,0,0,0.4)
+-- polygon2:scale(3,2)
+polygon2.xScale = 3
+polygon2.yScale = 2
 
 fruta.touch = removerFruta
 fondo.touch = removerFruta
