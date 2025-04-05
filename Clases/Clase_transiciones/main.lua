@@ -109,23 +109,26 @@ function frutasRemovidas( self, event )
     if event.phase == "ended" then
         print("Fruta removida: ")
         if self.alpha == 1 then
-            display.remove(self)
-        end
+            print("Tocando nuestra fruta .." .. self.name)
+--            display.remove(self)
+            self:rotate(90)
+            end
     end
    return 1
 end
 
 
--- for i = 1,10 do
---     local fruta = display.newImageRect(grupo_intermedio, "fruta.png", 100, 100)
---     fruta.x = math.random(100, CW-100)
---     fruta.y = math.random(100, CH-100)
---     print(fruta.x, fruta.y)
+for i = 1,10 do
+    local fruta = display.newImageRect(grupo_intermedio, "fruta.png", 100, 100)
+    fruta.x = math.random(100, CW-100)
+    fruta.y = math.random(100, CH-100)
+    fruta.name = "fruta" .. i
+    print(fruta.x, fruta.y)
 
---     fruta.touch = frutasRemovidas
---     fruta:addEventListener("touch", fruta)
---     frutas[i] = fruta
--- end
+    fruta.touch = frutasRemovidas
+    fruta:addEventListener("touch", fruta)
+    frutas[i] = fruta
+end
 
 print(btn.x, btn.y)
 btn:translate(100, 50)
@@ -163,3 +166,8 @@ fruta:addEventListener("touch", fruta)
 fondo:addEventListener("touch", fondo)
 btn:addEventListener("touch", btn)
 --btn:addEventListener("touch", resumir)
+
+-- grupo_intermedio:translate(CW/2, 0)
+-- grupo_intermedio.rotation = 90
+-- grupo_intermedio:scale(0.5,0.5)
+-- grupo_intermedio.isVisible = false
