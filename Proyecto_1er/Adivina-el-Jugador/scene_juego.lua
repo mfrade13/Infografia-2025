@@ -186,10 +186,9 @@ end
 
 
 --------------Generar feedback----------------------
-local function generarFeedback(objetivo, intento, grupo)
+local function generarFeedback(objetivo, intento)
     local feedback = {}
 
-    -- Comparación simple
     local function compararCampo(campo)
         local estado = (objetivo[campo] == intento[campo]) and "acierto" or "error"
         table.insert(feedback, {
@@ -199,7 +198,6 @@ local function generarFeedback(objetivo, intento, grupo)
         })
     end
 
-    -- Comparación con mayor/menor
     local function compararNumerico(campo)
         local estado = "error"
         if intento[campo] == objetivo[campo] then
@@ -228,9 +226,9 @@ local function generarFeedback(objetivo, intento, grupo)
 end
 
 
--------------------------------------------------
+---------------------------------------------------------------
 
--- Funcion para añadir filas al scroll
+------------ Funcion para añadir filas al scroll ---------------
 local function addFeedbackRow(intento)
     
     local feedback = generarFeedback(jugadorObjetivo, intento)
@@ -248,13 +246,13 @@ local function addFeedbackRow(intento)
     local xOffset = width/2
 
     local cabecerasText = {
-        "Nacionalidad", "Liga", "Equipo", "Posición", "Edad", "Dorsal"  -- Feedback ficticio (todo mal)
+        "Nacionalidad", "Liga", "Equipo", "Posición", "Edad", "Dorsal"
     }
 
     local columnCount = #cabecerasText
     local cellWidth = (scrollView.width) / columnCount
 
-    ----------Nombre del jugador-------------
+    -------------Nombre del jugador----------------
     local background = display.newRect(scrollView, xOffset, yOffset, scrollView.width, rowHeight)
     background:setFillColor(0.1, 0.1, 0.1, 0.5)
     scrollView:insert(background)
@@ -265,9 +263,10 @@ local function addFeedbackRow(intento)
         x = xOffset,
         y = yOffset,
         font = native.systemFont,
-        fontSize = 8,
+        fontSize = 12,
         
     })
+
     nom_jugador:setFillColor(1, 1, 1)
     scrollView:insert(nom_jugador)
 
@@ -289,7 +288,7 @@ local function addFeedbackRow(intento)
             fontSize = 8,
             
         })
-        cabecera:setFillColor(1, 1, 1)
+        cabecera:setFillColor(0, 0, 0)
         scrollView:insert(cabecera)
     end
 
@@ -312,7 +311,14 @@ local function addFeedbackRow(intento)
             fontSize = 8,
             
         })
-        cell:setFillColor(1, 1, 1)
+
+        if feedbackText[i] == "error" then
+            cell:setFillColor(1, 0, 0)        
+        elseif  feedbackText[i] == "acierto" then
+            cell:setFillColor(0, 1, 0)
+        else
+            cell:setFillColor(1, 1, 0)
+        end
         scrollView:insert(cell)
     end
     
@@ -344,11 +350,11 @@ end
 local function buscarJugadorPorNombre(nombreNormalizado)
     for i = 1, #jugadores do
         if jugadores[i].nombre_normalizado == nombreNormalizado then
-            return jugadores[i]  -- Devuelve el jugador si hay coincidencia exacta
+            return jugadores[i]
         end
     end
     print("jugador no encontrado")
-    return nil  -- No se encontró
+    return nil
 end
 
 ----------Función que se ejecuta al presionar el botón de enviar------------

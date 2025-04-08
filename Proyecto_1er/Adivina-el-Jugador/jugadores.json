@@ -238,5 +238,515 @@
     "posicion": "ATK",
     "edad": 18,
     "dorsal": "16"
+  },
+  {
+    "nombre": "Marc-André ter Stegen",
+    "nombre_normalizado": "marcandreterstegen",
+    "nacionalidad": "Germany",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "GK",
+    "edad": 32,
+    "dorsal": "1"
+  },
+  {
+    "nombre": "Iñaki Peña",
+    "nombre_normalizado": "inakipena",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "GK",
+    "edad": 26,
+    "dorsal": "13"
+  },
+  {
+    "nombre": "Wojciech Szczesny",
+    "nombre_normalizado": "wojciechszczesny",
+    "nacionalidad": "Poland",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "GK",
+    "edad": 34,
+    "dorsal": "25"
+  },
+  {
+    "nombre": "Pau Cubarsí",
+    "nombre_normalizado": "paucubarsi",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 18,
+    "dorsal": "2"
+  },
+  {
+    "nombre": "Ronald Araujo",
+    "nombre_normalizado": "ronaldaraujo",
+    "nacionalidad": "Uruguay",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 26,
+    "dorsal": "4"
+  },
+  {
+    "nombre": "Andreas Christensen",
+    "nombre_normalizado": "andreaschristensen",
+    "nacionalidad": "Denmark",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 28,
+    "dorsal": "15"
+  },
+  {
+    "nombre": "Eric García",
+    "nombre_normalizado": "ericgarcia",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 24,
+    "dorsal": "24"
+  },
+  {
+    "nombre": "Iñigo Martínez",
+    "nombre_normalizado": "inigomartinez",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 33,
+    "dorsal": "5"
+  },
+  {
+    "nombre": "Alejandro Balde",
+    "nombre_normalizado": "alejandrobalde",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 21,
+    "dorsal": "3"
+  },
+  {
+    "nombre": "Gerard Martín",
+    "nombre_normalizado": "gerardmartin",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 23,
+    "dorsal": "35"
+  },
+  {
+    "nombre": "Jules Koundé",
+    "nombre_normalizado": "juleskounde",
+    "nacionalidad": "France",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 26,
+    "dorsal": "23"
+  },
+  {
+    "nombre": "Héctor Fort",
+    "nombre_normalizado": "hectorfort",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "DEF",
+    "edad": 18,
+    "dorsal": "32"
+  },
+  {
+    "nombre": "Marc Casadó",
+    "nombre_normalizado": "marccasado",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 21,
+    "dorsal": "17"
+  },
+  {
+    "nombre": "Marc Bernal",
+    "nombre_normalizado": "marcbernal",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 17,
+    "dorsal": "28"
+  },
+  {
+    "nombre": "Pedri",
+    "nombre_normalizado": "pedri",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "8"
+  },
+  {
+    "nombre": "Gavi",
+    "nombre_normalizado": "gavi",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 20,
+    "dorsal": "6"
+  },
+  {
+    "nombre": "Fermín López",
+    "nombre_normalizado": "ferminlopez",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 21,
+    "dorsal": "16"
+  },
+  {
+    "nombre": "Frenkie de Jong",
+    "nombre_normalizado": "frenkiedejong",
+    "nacionalidad": "Netherlands",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 27,
+    "dorsal": "21"
+  },
+  {
+    "nombre": "Dani Olmo",
+    "nombre_normalizado": "daniolmo",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 26,
+    "dorsal": "20"
+  },
+  {
+    "nombre": "Pablo Torre",
+    "nombre_normalizado": "pablotorre",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "14"
+  },
+  {
+    "nombre": "Raphinha",
+    "nombre_normalizado": "raphinha",
+    "nacionalidad": "Brazil",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 28,
+    "dorsal": "11"
+  },
+  {
+    "nombre": "Ansu Fati",
+    "nombre_normalizado": "ansufati",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 22,
+    "dorsal": "10"
+  },
+  {
+    "nombre": "Lamine Yamal",
+    "nombre_normalizado": "lamineyamal",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 17,
+    "dorsal": "19"
+  },
+  {
+    "nombre": "Ferran Torres",
+    "nombre_normalizado": "ferrantorres",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 25,
+    "dorsal": "7"
+  },
+  {
+    "nombre": "Robert Lewandowski",
+    "nombre_normalizado": "robertlewandowski",
+    "nacionalidad": "Poland",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 36,
+    "dorsal": "9"
+  },
+  {
+    "nombre": "Pau Víctor",
+    "nombre_normalizado": "pauvictor",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Barcelona",
+    "posicion": "ATK",
+    "edad": 23,
+    "dorsal": "18"
+  },
+  {
+    "nombre": "Alisson",
+    "nombre_normalizado": "alisson",
+    "nacionalidad": "Brazil",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "GK",
+    "edad": 32,
+    "dorsal": "1"
+  },
+  {
+    "nombre": "Caoimhín Kelleher",
+    "nombre_normalizado": "caoimhinkelleher",
+    "nacionalidad": "Ireland",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "GK",
+    "edad": 26,
+    "dorsal": "62"
+  },
+  {
+    "nombre": "Vitezslav Jaros",
+    "nombre_normalizado": "vitezslavjaros",
+    "nacionalidad": "Czech Republic",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "GK",
+    "edad": 23,
+    "dorsal": "56"
+  },
+  {
+    "nombre": "Harvey Davies",
+    "nombre_normalizado": "harveydavies",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "GK",
+    "edad": 21,
+    "dorsal": "95"
+  },
+  {
+    "nombre": "Ibrahima Konaté",
+    "nombre_normalizado": "ibrahimakonate",
+    "nacionalidad": "France",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 25,
+    "dorsal": "5"
+  },
+  {
+    "nombre": "Virgil van Dijk",
+    "nombre_normalizado": "virgilvandijk",
+    "nacionalidad": "Netherlands",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 33,
+    "dorsal": "4"
+  },
+  {
+    "nombre": "Joe Gomez",
+    "nombre_normalizado": "joegomez",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 27,
+    "dorsal": "2"
+  },
+  {
+    "nombre": "Jarell Quansah",
+    "nombre_normalizado": "jarellquansah",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 22,
+    "dorsal": "78"
+  },
+  {
+    "nombre": "Konstantinos Tsimikas",
+    "nombre_normalizado": "konstantinostsimikas",
+    "nacionalidad": "Greece",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 28,
+    "dorsal": "21"
+  },
+  {
+    "nombre": "Andrew Robertson",
+    "nombre_normalizado": "andrewrobertson",
+    "nacionalidad": "Scotland",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 31,
+    "dorsal": "26"
+  },
+  {
+    "nombre": "Trent Alexander-Arnold",
+    "nombre_normalizado": "trentalexanderarnold",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 26,
+    "dorsal": "66"
+  },
+  {
+    "nombre": "Conor Bradley",
+    "nombre_normalizado": "conorbradley",
+    "nacionalidad": "Northern Ireland",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "DEF",
+    "edad": 21,
+    "dorsal": "84"
+  },
+  {
+    "nombre": "Ryan Gravenberch",
+    "nombre_normalizado": "ryangravenberch",
+    "nacionalidad": "Netherlands",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "38"
+  },
+  {
+    "nombre": "Wataru Endo",
+    "nombre_normalizado": "wataruendo",
+    "nacionalidad": "Japan",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 32,
+    "dorsal": "3"
+  },
+  {
+    "nombre": "Tyler Morton",
+    "nombre_normalizado": "tylermorton",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "80"
+  },
+  {
+    "nombre": "Alexis Mac Allister",
+    "nombre_normalizado": "alexismacallister",
+    "nacionalidad": "Argentina",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 26,
+    "dorsal": "10"
+  },
+  {
+    "nombre": "Dominik Szoboszlai",
+    "nombre_normalizado": "dominikszoboszlai",
+    "nacionalidad": "Hungary",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 24,
+    "dorsal": "8"
+  },
+  {
+    "nombre": "Curtis Jones",
+    "nombre_normalizado": "curtisjones",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 24,
+    "dorsal": "17"
+  },
+  {
+    "nombre": "Harvey Elliott",
+    "nombre_normalizado": "harveyelliott",
+    "nacionalidad": "England",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "19"
+  },
+  {
+    "nombre": "Luis Díaz",
+    "nombre_normalizado": "luisdiaz",
+    "nacionalidad": "Colombia",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 28,
+    "dorsal": "7"
+  },
+  {
+    "nombre": "Cody Gakpo",
+    "nombre_normalizado": "codygakpo",
+    "nacionalidad": "Netherlands",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 25,
+    "dorsal": "18"
+  },
+  {
+    "nombre": "Mohamed Salah",
+    "nombre_normalizado": "mohamedsalah",
+    "nacionalidad": "Egypt",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 32,
+    "dorsal": "11"
+  },
+  {
+    "nombre": "Federico Chiesa",
+    "nombre_normalizado": "federicochiesa",
+    "nacionalidad": "Italy",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 27,
+    "dorsal": "14"
+  },
+  {
+    "nombre": "Darwin Núñez",
+    "nombre_normalizado": "darwinnunez",
+    "nacionalidad": "Uruguay",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 25,
+    "dorsal": "9"
+  },
+  {
+    "nombre": "Diogo Jota",
+    "nombre_normalizado": "diogojota",
+    "nacionalidad": "Portugal",
+    "liga": "Premier League",
+    "equipo": "Liverpool",
+    "posicion": "ATK",
+    "edad": 28,
+    "dorsal": "20"
   }
 ]
