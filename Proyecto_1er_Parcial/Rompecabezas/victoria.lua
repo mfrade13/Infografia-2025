@@ -47,7 +47,7 @@ function scene:create(event)
         text = "Movimientos: " .. movimientosFinal .. "  |  Tiempo: " .. tiempoFinal .. "s",
         x = display.contentCenterX,
         y = 200,
-        font = native.systemFontBold,
+        font = "algerian",
         fontSize = 32
     })
     --detalles:setFillColor(20/255, 287/255, 0)

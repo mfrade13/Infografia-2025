@@ -16,6 +16,7 @@ local marco
 local fondo
 local textoTiempo
 local textoMovs
+local juegoIniciado = false
 
 --ACTUALIZAR TEXTOS
 local function actualizarTextos()
@@ -37,6 +38,10 @@ end
 
 --VERIFICAR VICTORIA
 local function verificarVictoria()
+    if not juegoIniciado then
+        return false
+    end
+
     local index = 1
     for row = 1, gridSize do
         for col = 1, gridSize do
@@ -87,6 +92,20 @@ local function moverPieza(pieza)
     end
 end
 
+local function moverPiezaInicial(pieza)
+    local row, col = pieza.row, pieza.col
+    if esAdyacente(row, col) then
+        local size = 360 / gridSize
+        pieza.x = marco.x - 180 + (piezaVacia.col - 0.5) * size
+        pieza.y = marco.y - 180 + (piezaVacia.row - 0.5) * size
+
+        matriz[piezaVacia.row][piezaVacia.col] = pieza
+        matriz[row][col] = nil
+
+        pieza.row, pieza.col = piezaVacia.row, piezaVacia.col
+        piezaVacia.row, piezaVacia.col = row, col
+    end
+end
 
 function scene:create(event)
     local sceneGroup = self.view
@@ -94,6 +113,7 @@ function scene:create(event)
 
     movimientos = 0
     tiempo = 0
+    juegoIniciado = false
 
     gridSize = nivel == "facil" and 3 or (nivel == "medio" and 4 or 5)
     local piezaSize = 360 / gridSize
@@ -181,9 +201,14 @@ function scene:create(event)
         if c > 1 then table.insert(opciones, {r, c - 1}) end
         if c < gridSize then table.insert(opciones, {r, c + 1}) end
         local mov = opciones[math.random(#opciones)]
-        moverPieza(matriz[mov[1]][mov[2]])
-        movimientos = 0
+        moverPiezaInicial(matriz[mov[1]][mov[2]]) 
     end
+
+    timer.performWithDelay(200, function()
+        juegoIniciado = true
+        movimientos = 0
+        actualizarTextos()
+    end)
        
     --CRONOMETRO
     temporizador = timer.performWithDelay(1000, contarTiempo, 0)
@@ -192,13 +217,11 @@ end
 function scene:destroy(event)
     local sceneGroup = self.view
     
-    -- Cancelar el temporizador si está activo
     if temporizador then
         timer.cancel(temporizador)
         temporizador = nil
     end
 
-    -- Limpiar variables
     piezas = {}
     matriz = {}
     nivel = nil
