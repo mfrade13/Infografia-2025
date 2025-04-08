@@ -8,7 +8,7 @@ local piezas = {}
 local matriz = {}
 local nivel
 local gridSize
-local piezaVacia = {row = 1, col = 1}
+local piezaVacia = {}
 local movimientos = 0
 local tiempo = 0
 local temporizador = nil
@@ -226,7 +226,7 @@ function scene:destroy(event)
     matriz = {}
     nivel = nil
     gridSize = 0
-    piezaVacia = {row = 1, col = 1}
+    piezaVacia = {}
     movimientos = 0
     tiempo = 0
 end
