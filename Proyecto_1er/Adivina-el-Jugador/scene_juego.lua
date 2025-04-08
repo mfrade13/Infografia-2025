@@ -71,14 +71,14 @@ local function normalizarTexto(texto)
     return texto
 end
 
---------------Popup victoria-------------------------
+--------------Popup derrota-------------------------
 local function mostrarPopupDerrota()
 
-    local popupGroup = display.newGroup()
-
-    local overlay = display.newRect(popupGroup, CW/2, CH/2, CW, CH)
+    local overlay = display.newRect(CW/2, CH/2, CW, CH)
     overlay:setFillColor(0, 0, 0, 0.5)
 
+    local popupGroup = display.newGroup()
+    local emojiGroup = display.newGroup()
     local cuadro = display.newRoundedRect(popupGroup, CW/2, CH/2, CW*3/4, CH/3, 20)
     cuadro:setFillColor(0.8, 0.8, 0.8)
     cuadro.strokeWidth = 6
@@ -95,21 +95,46 @@ local function mostrarPopupDerrota()
     })
     texto:setFillColor(0)
 
-    timer.performWithDelay(2500, function()        
+    local function cambiarEscena()
         display.remove(popupGroup)
+        display.remove(overlay)
+        display.remove(emojiGroup)
         popupGroup = nil
+        overlay = nil
+        emojiGroup = nil
 
         composer.gotoScene("scene_menu", { effect = "fade", time = 500 })
-    end)
+    end
+
+    local function emojis()
+        local emoji = display.newImageRect("emoji_triste.png", 100, 100)
+        emoji.anchorY = 0
+        emoji.x = CW*3/4
+        emoji.y = CH*2/3
+        emojiGroup:insert(emoji)
+
+        local emoji2 = display.newImageRect("emoji_negando.png", 40, 40)
+        emoji2.anchorY = 0
+        emoji2.x = CW/5
+        emoji2.y = CH*5/7
+        emojiGroup:insert(emoji2)
+
+        transition.to(emoji, {time = 3000, delay=100, y = CH/12, transition = easing.inBounce})
+        transition.to(emoji2, {time = 3000, delay=100,  width = emoji2.width*2.5, height = emoji2.height*2.5,
+        onComplete = cambiarEscena})
+    end
+
+    popupGroup.y = popupGroup.y+100
+    transition.to(popupGroup, {time =1000, delay=100, y = popupGroup.y-100, onComplete = emojis})
 end
 
---------------Popup derrota-------------------------
+--------------Popup Victoria-------------------------
 local function mostrarPopupVictoria()
-    local popupGroup = display.newGroup()
-
-    local overlay = display.newRect(popupGroup, CW/2, CH/2, CW, CH)
+    local overlay = display.newRect(CW/2, CH/2, CW, CH)
     overlay:setFillColor(0, 0, 0, 0.5)
 
+    local popupGroup = display.newGroup()
+    local emojiGroup = display.newGroup()
     local cuadro = display.newRoundedRect(popupGroup, CW/2, CH/2, CW*3/4, CH/3, 20)
     cuadro:setFillColor(0.8, 0.8, 0.8)
     cuadro.strokeWidth = 6
@@ -125,12 +150,38 @@ local function mostrarPopupVictoria()
     })
     texto:setFillColor(0)
 
-    timer.performWithDelay(2500, function()        
+    local function cambiarEscena()
         display.remove(popupGroup)
+        display.remove(overlay)
+        display.remove(emojiGroup)
         popupGroup = nil
+        overlay = nil
+        emojiGroup = nil
 
         composer.gotoScene("scene_menu", { effect = "fade", time = 500 })
-    end)
+    end
+
+    local function emojis()
+        local emoji = display.newImageRect("emoji_nerd.png", 100, 100)
+        emoji.anchorY = 0
+        emoji.x = CW*3/4
+        emoji.y = CH*5/6
+        emojiGroup:insert(emoji)
+
+        local emoji2 = display.newImageRect("emoji_pulgar.jpg", 40, 40)
+        emoji2.anchorY = 0
+        emoji2.x = CW/5
+        emoji2.y = CH*5/7
+        emojiGroup:insert(emoji2)
+
+        transition.to(emoji, {time = 3000, delay=100, y = CH/12, transition = easing.inOutBack})
+        transition.to(emoji2, {time = 3000, delay=100,  width = emoji2.width*2.5, height = emoji2.height*2.5,
+        onComplete = cambiarEscena})
+    end
+
+    popupGroup.y = popupGroup.y+100
+    transition.to(popupGroup, {time =1000, delay=100, y = popupGroup.y-100, onComplete = emojis})
+    
 end
 
 
@@ -205,7 +256,7 @@ local function addFeedbackRow(intento)
 
     ----------Nombre del jugador-------------
     local background = display.newRect(scrollView, xOffset, yOffset, scrollView.width, rowHeight)
-    background:setFillColor(0.1, 0.1, 0.1, 0.2)
+    background:setFillColor(0.1, 0.1, 0.1, 0.5)
     scrollView:insert(background)
 
     local nom_jugador = display.newText({
@@ -225,7 +276,7 @@ local function addFeedbackRow(intento)
     local yOffset2 = (currentRow - 1) * rowHeight + rowHeight/2
 
     local background1 = display.newRect(scrollView, xOffset, yOffset2, scrollView.width, rowHeight)
-    background1:setFillColor(0.1, 0.1, 0.1, 0.2)
+    background1:setFillColor(0.1, 0.1, 0.1, 0.3)
     scrollView:insert(background1)
 
     for i = 1, columnCount do
@@ -248,7 +299,7 @@ local function addFeedbackRow(intento)
     local yOffset3 = (currentRow - 1) * rowHeight + rowHeight/2
 
     local background2 = display.newRect(scrollView, xOffset, yOffset3, scrollView.width, rowHeight)
-    background2:setFillColor(0.1, 0.1, 0.1, 0.2)
+    background2:setFillColor(0.1, 0.1, 0.1, 0.3)
     scrollView:insert(background2)
 
     for i = 1, columnCount do
