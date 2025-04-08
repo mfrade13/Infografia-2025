@@ -1,0 +1,242 @@
+[
+  {
+    "nombre": "Thibaut Courtois",
+    "nombre_normalizado": "thibautcourtois",
+    "nacionalidad": "Belgium",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "GK",
+    "edad": 32,
+    "dorsal": "1"
+  },
+  {
+    "nombre": "Andriy Lunin",
+    "nombre_normalizado": "andriylunin",
+    "nacionalidad": "Ukraine",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "GK",
+    "edad": 26,
+    "dorsal": "13"
+  },
+  {
+    "nombre": "Fran González",
+    "nombre_normalizado": "frangonzalez",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "GK",
+    "edad": 19,
+    "dorsal": "26"
+  },
+  {
+    "nombre": "Éder Militão",
+    "nombre_normalizado": "edermilitao",
+    "nacionalidad": "Brazil",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 27,
+    "dorsal": "3"
+  },
+  {
+    "nombre": "Raúl Asencio",
+    "nombre_normalizado": "raulasencio",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 22,
+    "dorsal": "35"
+  },
+  {
+    "nombre": "Antonio Rüdiger",
+    "nombre_normalizado": "antoniorudiger",
+    "nacionalidad": "Germany",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 32,
+    "dorsal": "22"
+  },
+  {
+    "nombre": "David Alaba",
+    "nombre_normalizado": "davidalaba",
+    "nacionalidad": "Austria",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 32,
+    "dorsal": "4"
+  },
+  {
+    "nombre": "Jesús Vallejo",
+    "nombre_normalizado": "jesusvallejo",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 28,
+    "dorsal": "18"
+  },
+  {
+    "nombre": "Ferland Mendy",
+    "nombre_normalizado": "ferlandmendy",
+    "nacionalidad": "France",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 29,
+    "dorsal": "23"
+  },
+  {
+    "nombre": "Fran García",
+    "nombre_normalizado": "frangarcia",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 25,
+    "dorsal": "20"
+  },
+  {
+    "nombre": "Daniel Carvajal",
+    "nombre_normalizado": "danielcarvajal",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 33,
+    "dorsal": "2"
+  },
+  {
+    "nombre": "Lucas Vázquez",
+    "nombre_normalizado": "lucasvazquez",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "DEF",
+    "edad": 33,
+    "dorsal": "17"
+  },
+  {
+    "nombre": "Aurélien Tchouaméni",
+    "nombre_normalizado": "aurelientchouameni",
+    "nacionalidad": "France",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 25,
+    "dorsal": "14"
+  },
+  {
+    "nombre": "Federico Valverde",
+    "nombre_normalizado": "federicovalverde",
+    "nacionalidad": "Uruguay",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 26,
+    "dorsal": "8"
+  },
+  {
+    "nombre": "Eduardo Camavinga",
+    "nombre_normalizado": "eduardocamavinga",
+    "nacionalidad": "France",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 22,
+    "dorsal": "6"
+  },
+  {
+    "nombre": "Dani Ceballos",
+    "nombre_normalizado": "daniceballos",
+    "nacionalidad": "Spain",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 28,
+    "dorsal": "19"
+  },
+  {
+    "nombre": "Luka Modric",
+    "nombre_normalizado": "lukamodric",
+    "nacionalidad": "Croatia",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 39,
+    "dorsal": "10"
+  },
+  {
+    "nombre": "Jude Bellingham",
+    "nombre_normalizado": "judebellingham",
+    "nacionalidad": "England",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "MID",
+    "edad": 21,
+    "dorsal": "5"
+  },
+  {
+    "nombre": "Vinicius Junior",
+    "nombre_normalizado": "viniciusjunior",
+    "nacionalidad": "Brazil",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 24,
+    "dorsal": "7"
+  },
+  {
+    "nombre": "Rodrygo",
+    "nombre_normalizado": "rodrygo",
+    "nacionalidad": "Brazil",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 24,
+    "dorsal": "11"
+  },
+  {
+    "nombre": "Arda Güler",
+    "nombre_normalizado": "ardaguler",
+    "nacionalidad": "Türkiye",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 20,
+    "dorsal": "15"
+  },
+  {
+    "nombre": "Brahim Díaz",
+    "nombre_normalizado": "brahimdiaz",
+    "nacionalidad": "Morocco",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 25,
+    "dorsal": "21"
+  },
+  {
+    "nombre": "Kylian Mbappé",
+    "nombre_normalizado": "kylianmbappe",
+    "nacionalidad": "France",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 26,
+    "dorsal": "9"
+  },
+  {
+    "nombre": "Endrick",
+    "nombre_normalizado": "endrick",
+    "nacionalidad": "Brazil",
+    "liga": "LaLiga",
+    "equipo": "Real Madrid",
+    "posicion": "ATK",
+    "edad": 18,
+    "dorsal": "16"
+  }
+]
