@@ -92,20 +92,6 @@ local function moverPieza(pieza)
     end
 end
 
-local function moverPiezaInicial(pieza)
-    local row, col = pieza.row, pieza.col
-    if esAdyacente(row, col) then
-        local size = 360 / gridSize
-        pieza.x = marco.x - 180 + (piezaVacia.col - 0.5) * size
-        pieza.y = marco.y - 180 + (piezaVacia.row - 0.5) * size
-
-        matriz[piezaVacia.row][piezaVacia.col] = pieza
-        matriz[row][col] = nil
-
-        pieza.row, pieza.col = piezaVacia.row, piezaVacia.col
-        piezaVacia.row, piezaVacia.col = row, col
-    end
-end
 
 function scene:create(event)
     local sceneGroup = self.view
@@ -193,7 +179,7 @@ function scene:create(event)
     })
     textoMovs:setFillColor(0)
     --DESORDENAR ROMPECABEZAS
-    for i = 1, 1 do
+    for i = 1, 150 do
         local r, c = piezaVacia.row, piezaVacia.col
         local opciones = {}
         if r > 1 then table.insert(opciones, {r - 1, c}) end
@@ -201,7 +187,7 @@ function scene:create(event)
         if c > 1 then table.insert(opciones, {r, c - 1}) end
         if c < gridSize then table.insert(opciones, {r, c + 1}) end
         local mov = opciones[math.random(#opciones)]
-        moverPiezaInicial(matriz[mov[1]][mov[2]]) 
+        moverPieza(matriz[mov[1]][mov[2]]) 
     end
 
     timer.performWithDelay(200, function()
