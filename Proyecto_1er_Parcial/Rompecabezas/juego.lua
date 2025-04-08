@@ -169,9 +169,8 @@ function scene:create(event)
         fontSize = 40
     })
     textoMovs:setFillColor(0)
- --[=[
     --DESORDENAR ROMPECABEZAS
-    for i = 1, 50 do
+    for i = 1, 1 do
         local r, c = piezaVacia.row, piezaVacia.col
         local opciones = {}
         if r > 1 then table.insert(opciones, {r - 1, c}) end
@@ -182,39 +181,7 @@ function scene:create(event)
         moverPieza(matriz[mov[1]][mov[2]])
         movimientos = 0
     end
-        ]=]
-
-    -------------------------------------------------PRUEBA----------------------------------------------------
-    -- POSICIONAR PIEZAS EN ORDEN CASI GANADOR 
-    local index = 1
-    for row = 1, gridSize do
-        matriz[row] = {}
-        for col = 1, gridSize do
-            if not (row == gridSize and col == gridSize) then
-                local pieza = piezas[index]
-                pieza.row = row
-                pieza.col = col
-                matriz[row][col] = pieza
-                pieza.x = marco.x - 180 + (col - 0.5) * piezaSize
-                pieza.y = marco.y - 180 + (row - 0.5) * piezaSize
-                index = index + 1
-            end
-        end
-    end
-
-    local ultimaPieza = matriz[gridSize][gridSize - 1]
-    matriz[gridSize][gridSize - 1] = nil
-    matriz[gridSize][gridSize] = ultimaPieza
-
-    ultimaPieza.row = gridSize
-    ultimaPieza.col = gridSize
-    ultimaPieza.x = marco.x - 180 + (gridSize - 0.5) * piezaSize
-    ultimaPieza.y = marco.y - 180 + (gridSize - 0.5) * piezaSize
-
-    piezaVacia.row = gridSize
-    piezaVacia.col = gridSize - 1
-    -------------------------------------------------FIN PRUEBA----------------------------------------------------
-
+       
     --CRONOMETRO
     temporizador = timer.performWithDelay(1000, contarTiempo, 0)
 end
@@ -243,13 +210,10 @@ function scene:hide(event)
     local phase = event.phase
     
     if phase == "will" then
-        -- Código a ejecutar justo antes de que la escena se oculte
         if temporizador then
             timer.cancel(temporizador)
         end
     elseif phase == "did" then
-        -- Código a ejecutar después de que la escena se haya ocultado
-        -- Puedes limpiar recursos aquí si es necesario
     end
 end
 
@@ -266,7 +230,7 @@ function scene:show(event)
     end
 end
 
-print(temporizador)
+--print(temporizador)
 
 scene:addEventListener("create", scene)
 scene:addEventListener("show", scene)

@@ -73,7 +73,6 @@ function scene:create(event)
         composer.gotoScene("inicio", {effect = "fade", time = 400})
     end)
 
-    -- Animación opcional (escala y rotación)
     transition.to(texto, {time = 1000, xScale = 1.2, yScale = 1.2, rotation = 360})
 end
 
