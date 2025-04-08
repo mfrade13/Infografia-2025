@@ -75,7 +75,10 @@ local function moverPieza(pieza)
 
         --VERIFICAR VICTORIA
         if verificarVictoria() then
-            timer.cancel(temporizador)
+            if temporizador then
+                timer.cancel(temporizador)
+                temporizador = nil
+            end
             composer.setVariable("tiempoFinal", tiempo)
             composer.setVariable("movimientosFinal", movimientos)
             composer.removeScene("victoria")
