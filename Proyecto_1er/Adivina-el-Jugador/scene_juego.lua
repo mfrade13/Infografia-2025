@@ -8,7 +8,7 @@ local scrollView
 local inputField
 local contador
 local intentosRealizados
-local intentosTotales
+local intentosTotales = 5
 local currentRow
 local jugadorObjetivo
 
@@ -318,19 +318,31 @@ local function onCheckButtonRelease()
 
         if acertado then
             print("ganaste")
+            if inputField then
+                inputField:removeSelf()
+                inputField = nil
+            end
             mostrarPopupVictoria()
         else
             if intentosRealizados == intentosTotales then
                 print("perdiste")
+                if inputField then
+                    inputField:removeSelf()
+                    inputField = nil
+                end
                 mostrarPopupDerrota()
             end 
         end
         
     end
     
+    if inputField then
+        inputField.text = ""
+    end
+    
     print("Texto ingresado:", normalizado)
     --print(normalizado)
-    inputField.text = ""
+    
     
 end
 
@@ -356,21 +368,7 @@ function scene:create(event)
         fontSize = 28,
     }
     local adivina_text = display.newText(adivina_text_options)
-    adivina_text:setFillColor(1, 1, 1)
-
-    ---------- Contador de intentos ----------
-    intentosRealizados = 0
-    local contador_options =
-    {
-        parent = sceneGroup,
-        text = "Intentos: " .. intentosRealizados,
-        x =  CW * 3/ 4,
-        y = CH / 16,
-        font = "Segoe UI Semibold",
-        fontSize = 14,
-    }
-    contador = display.newText(contador_options)
-    adivina_text:setFillColor(1, 1, 1)
+    adivina_text:setFillColor(1, 1, 1)    
     
 
     ---------- Botón Exit ----------
@@ -408,8 +406,20 @@ function scene:show( event )
         -- Code here runs when the scene is still off screen (but is about to come on screen)
         cargarJugadorAleatorio()
         intentosRealizados = 0
-        intentosTotales = 5
         currentRow = 0  
+
+        ---------- Contador de intentos ----------
+        local contador_options =
+        {
+            parent = sceneGroup,
+            text = "Intentos: " .. intentosRealizados,
+            x =  CW * 3/ 4,
+            y = CH / 16,
+            font = "Segoe UI Semibold",
+            fontSize = 14,
+        }
+        contador = display.newText(contador_options)
+        contador:setFillColor(1, 1, 1)
 
         ---------- Input ----------
         inputField = native.newTextField(CW / 2, CH / 3, CW * 5 / 6, CH / 14)
@@ -469,8 +479,7 @@ function scene:show( event )
         })
         checkButton.x = CW / 2
         checkButton.y = inputField.y + inputField.height * 0.75 + checkButton.height / 2 + 10
-
-        -- Insertar botón en el grupo de la escena para que se destruya correctamente
+        
         sceneGroup:insert(checkButton)
  
     elseif ( phase == "did" ) then
@@ -489,18 +498,23 @@ function scene:hide( event )
  
     if ( phase == "will" ) then
         -- Code here runs when the scene is on screen (but is about to go off screen)
-        if (phase == "will") then
-            if inputField then
-                inputField:removeSelf()
-                inputField = nil
-            end
-            if scrollView then
-                scrollView:removeSelf()
-                scrollView = nil
-            end
-            
-            
+        if inputField then
+            inputField:removeSelf()
+            inputField = nil
         end
+        if contador then
+            contador:removeSelf()
+            contador = nil
+        end
+        if scrollView then
+            scrollView:removeSelf()
+            scrollView = nil
+        end
+        if checkButton then
+            checkButton:removeSelf()
+            checkButton = nil
+        end    
+            
  
     elseif ( phase == "did" ) then
         -- Code here runs immediately after the scene goes entirely off screen
