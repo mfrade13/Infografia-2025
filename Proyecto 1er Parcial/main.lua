@@ -1,57 +1,53 @@
--- main.lua
+-- main.lua (Código completo)
 
--- Definir los elementos con su información
+-- Definir grupo principal
+local mainGroup = display.newGroup()
+
+-- Definir elementos con toda la información
 local elementos = {
-    {symbol = "H", name = "Hidrógeno", weight = 1.008, protons = 1, neutrons = 0, electrons = 1, color = {1, 1, 1}},  -- Blanco
-    {symbol = "He", name = "Helio", weight = 4.0026, protons = 2, neutrons = 2, electrons = 2, color = {0.5, 0.5, 1}},  -- Azul
-    {symbol = "Li", name = "Litio", weight = 6.94, protons = 3, neutrons = 4, electrons = 3, color = {0.9, 0.5, 0.5}},  -- Rojo
-    {symbol = "Be", name = "Berilio", weight = 9.0122, protons = 4, neutrons = 5, electrons = 4, color = {0.5, 1, 0.5}},  -- Verde
-    {symbol = "B", name = "Boro", weight = 10.81, protons = 5, neutrons = 6, electrons = 5, color = {1, 1, 0.5}},  -- Amarillo
-    {symbol = "C", name = "Carbono", weight = 12.011, protons = 6, neutrons = 6, electrons = 6, color = {0.5, 1, 1}},  -- Cyan
-    {symbol = "N", name = "Nitrógeno", weight = 14.007, protons = 7, neutrons = 7, electrons = 7, color = {1, 0.5, 1}},  -- Rosa
-    {symbol = "O", name = "Oxígeno", weight = 15.999, protons = 8, neutrons = 8, electrons = 8, color = {1, 0.5, 0.5}},  -- Rojo
-    {symbol = "F", name = "Flúor", weight = 18.998, protons = 9, neutrons = 10, electrons = 9, color = {0.5, 1, 0.5}},  -- Verde claro
-    {symbol = "Ne", name = "Neón", weight = 20.180, protons = 10, neutrons = 10, electrons = 10, color = {0.5, 0.5, 1}}  -- Azul claro
+    {symbol = "H", name = "Hidrógeno", weight = 1.008, protons = 1, neutrons = 0, electrons = 1, color = {1,1,1}},
+    {symbol = "He", name = "Helio", weight = 4.0026, protons = 2, neutrons = 2, electrons = 2, color = {0.5,0.5,1}},
+    {symbol = "Li", name = "Litio", weight = 6.94, protons = 3, neutrons = 4, electrons = 3, color = {0.9,0.5,0.5}},
+    {symbol = "Be", name = "Berilio", weight = 9.0122, protons = 4, neutrons = 5, electrons = 4, color = {0.5,1,0.5}},
+    {symbol = "B", name = "Boro", weight = 10.81, protons = 5, neutrons = 6, electrons = 5, color = {1,1,0.5}},
+    {symbol = "C", name = "Carbono", weight = 12.011, protons = 6, neutrons = 6, electrons = 6, color = {0.5,1,1}},
+    {symbol = "N", name = "Nitrógeno", weight = 14.007, protons = 7, neutrons = 7, electrons = 7, color = {1,0.5,1}},
+    {symbol = "O", name = "Oxígeno", weight = 15.999, protons = 8, neutrons = 8, electrons = 8, color = {1,0.5,0.5}},
+    {symbol = "F", name = "Flúor", weight = 18.998, protons = 9, neutrons = 10, electrons = 9, color = {0.5,1,0.5}},
+    {symbol = "Ne", name = "Neón", weight = 20.180, protons = 10, neutrons = 10, electrons = 10, color = {0.5,0.5,1}}
 }
 
--- Tamaño de las celdas y de la pantalla
-local celda = 60  -- Tamaño de cada celda
-local CW = 320  -- Ancho de la pantalla
-local CH = 480  -- Alto de la pantalla
+local celda = 60
+local CW = display.contentWidth
+local CH = display.contentHeight
 
--- Función para dibujar la tabla periódica
-local function drawElementList()
-    local yOffset = 50  -- Espaciado vertical para la lista de elementos
+-- Declarar funciones anticipadamente
+local drawElementList, showElementDetails
 
-    -- Crear la lista de elementos en dos columnas y cinco filas
+-- Dibujar tabla periódica simplificada
+drawElementList = function()
+    display.remove(mainGroup)
+    mainGroup = display.newGroup()
+
+    local yOffset = 80
+    local xOffset = CW/4
+
     for i = 1, 5 do
         for j = 1, 2 do
             local index = (i - 1) * 2 + j
             local element = elementos[index]
-            local x = (j - 1) * (CW / 2) + (CW / 4)  -- Alineación de las columnas
-            local y = yOffset + (i - 1) * celda  -- Espaciado vertical para las filas
 
-            -- Crear los rectángulos para los elementos (como botones)
-            local rect = display.newRect(x, y, celda, celda)
-            -- Aplicar el color correctamente
-            rect:setFillColor(unpack(element.color))  -- Usamos element.color directamente
+            local x = (j - 1) * (CW / 2) + xOffset
+            local y = yOffset + (i - 1) * celda
+
+            local rect = display.newRect(mainGroup, x, y, celda, celda)
+            rect:setFillColor(unpack(element.color))
             rect.strokeWidth = 2
-            rect:setStrokeColor(0, 0, 0)
+            rect:setStrokeColor(0)
 
-            -- Texto con el símbolo del elemento
-            local label = display.newText({
-                text = element.symbol,
-                x = x,
-                y = y,
-                font = native.systemFont,
-                fontSize = 20
-            })
-            label:setFillColor(0, 0, 0)
+            local label = display.newText(mainGroup, element.symbol, x, y, native.systemFont, 20)
+            label:setFillColor(0)
 
-            -- Asignar el elemento a la celda
-            rect.element = element  -- Guardamos el objeto de elemento dentro del rectángulo
-
-            -- Al hacer clic, mostrar detalles del elemento
             rect:addEventListener("tap", function()
                 showElementDetails(element)
             end)
@@ -59,67 +55,66 @@ local function drawElementList()
     end
 end
 
--- Función para mostrar los detalles de un elemento
-local function showElementDetails(element)
-    -- Limpiar la pantalla
-    display.removeAll()
+-- Mostrar detalles y modelo de Bohr
+showElementDetails = function(element)
+    display.remove(mainGroup)
+    mainGroup = display.newGroup()
 
-    -- Título del elemento
-    local title = display.newText({
-        text = "Elemento: " .. element.name,
-        x = display.contentCenterX,
-        y = 20,
-        font = native.systemFont,
-        fontSize = 30
-    })
+    local CW = display.contentWidth
+    local CH = display.contentHeight
 
-    -- Información del elemento
-    local infoText = "Peso atómico: " .. element.weight .. "\nElectrones: " .. element.electrons ..
-        "\nProtones: " .. element.protons .. "\nNeutrones: " .. element.neutrons
-    local infoDisplay = display.newText({
-        text = infoText,
-        x = display.contentCenterX,
-        y = display.contentCenterY + 150,
-        font = native.systemFont,
-        fontSize = 20,
-        align = "center"
-    })
+    -- Título del elemento arriba
+    local title = display.newText(mainGroup, "Elemento: "..element.name, CW/2, 30, native.systemFontBold, 24)
 
-    -- Visualización simplificada de la configuración de Bohr para hidrógeno
-    if element.symbol == "H" then
-        local electronOrbitals = display.newCircle(display.contentCenterX, 150, 50)
-        electronOrbitals:setStrokeColor(1, 1, 1)
-        electronOrbitals.strokeWidth = 2
+    -- Configuración electrónica
+    local configuraciones = {
+        H={1},He={2},Li={2,1},Be={2,2},B={2,3},C={2,4},N={2,5},O={2,6},F={2,7},Ne={2,8}
+    }
 
-        local electron1 = display.newCircle(display.contentCenterX + 50, 150, 5)
-        electron1:setFillColor(1, 0, 0)
+    local radioInicial = 25
+    local incrementoRadio = 25
+    local conf = configuraciones[element.symbol]
 
-        -- Mostrar configuración de Bohr con el único electrón de H
-        local orbitalText = display.newText({
-            text = "Modelo de Bohr: 1 electrón",
-            x = display.contentCenterX,
-            y = 250,
-            font = native.systemFont,
-            fontSize = 18
-        })
+    -- Modelo de Bohr centrado claramente en la pantalla
+    for i = 1, #conf do
+        local radio = radioInicial + incrementoRadio * (i - 1)
+
+        local orbital = display.newCircle(mainGroup, CW/2, CH/2 - 30, radio)
+        orbital:setFillColor(0,0,0,0)
+        orbital:setStrokeColor(1)
+        orbital.strokeWidth = 2
+
+        local electrones = conf[i]
+
+        for e = 1, electrones do
+            local angle = math.rad((360/electrones)*e)
+            local ex = CW/2 + radio*math.cos(angle)
+            local ey = CH/2 - 30 + radio*math.sin(angle)
+
+            local electron = display.newCircle(mainGroup, ex, ey, 4)
+            electron:setFillColor(1,0,0)
+        end
     end
 
-    -- Botón para regresar a la lista de elementos
-    local backButton = display.newText({
-        text = "Regresar a la lista",
-        x = display.contentCenterX,
-        y = display.contentHeight - 50,
-        font = native.systemFont,
-        fontSize = 20
-    })
-    backButton:setFillColor(0, 0, 1)
+    -- Texto Configuración Bohr separado claramente
+    local orbitalText = display.newText(mainGroup,
+        "Modelo de Bohr: "..element.electrons.." electrones ("..table.concat(conf,",")..")",
+        CW/2, CH/2 + 90, native.systemFont, 16)
 
-    backButton:addEventListener("tap", function()
-        -- Limpiar la pantalla y mostrar la lista de elementos
-        display.removeAll()
-        drawElementList()
-    end)
+    -- Información general más abajo y con buena separación
+    local info = display.newText(mainGroup, 
+        "Peso atómico: "..element.weight.."\n"..
+        "Electrones: "..element.electrons.."\n"..
+        "Protones: "..element.protons.."\n"..
+        "Neutrones: "..element.neutrons,
+        CW/2, CH/2 + 150, native.systemFont, 16)
+
+    -- Botón regresar con buena separación inferior
+    local backButton = display.newText(mainGroup, "Regresar a la lista", CW/2, CH - 25, native.systemFontBold, 18)
+    backButton:setFillColor(0,0.4,1)
+
+    backButton:addEventListener("tap", drawElementList)
 end
 
--- Llamar a la función para dibujar la lista de elementos
+-- Iniciar app dibujando la lista
 drawElementList()
