@@ -1,9 +1,8 @@
--- main.lua (Código completo)
+-- main.lua
 
--- Definir grupo principal
 local mainGroup = display.newGroup()
 
--- Definir elementos con toda la información
+-- Informacionde los elementos definidos
 local elementos = {
     {symbol = "H", name = "Hidrógeno", weight = 1.008, protons = 1, neutrons = 0, electrons = 1, color = {1,1,1}},
     {symbol = "He", name = "Helio", weight = 4.0026, protons = 2, neutrons = 2, electrons = 2, color = {0.5,0.5,1}},
@@ -21,10 +20,10 @@ local celda = 60
 local CW = display.contentWidth
 local CH = display.contentHeight
 
--- Declarar funciones anticipadamente
+-- Funciones declaradas
 local drawElementList, showElementDetails
 
--- Dibujar tabla periódica simplificada
+-- Mostramos lista de elementos
 drawElementList = function()
     display.remove(mainGroup)
     mainGroup = display.newGroup()
@@ -55,7 +54,7 @@ drawElementList = function()
     end
 end
 
--- Mostrar detalles y modelo de Bohr
+-- Mostramos una leyenda del modelo
 showElementDetails = function(element)
     display.remove(mainGroup)
     mainGroup = display.newGroup()
@@ -63,10 +62,10 @@ showElementDetails = function(element)
     local CW = display.contentWidth
     local CH = display.contentHeight
 
-    -- Título del elemento arriba
+    -- Nombre del Elemento que mostramos
     local title = display.newText(mainGroup, "Elemento: "..element.name, CW/2, 30, native.systemFontBold, 24)
 
-    -- Configuración electrónica
+    -- Nuveles de s2 para dibujar
     local configuraciones = {
         H={1},He={2},Li={2,1},Be={2,2},B={2,3},C={2,4},N={2,5},O={2,6},F={2,7},Ne={2,8}
     }
@@ -75,7 +74,7 @@ showElementDetails = function(element)
     local incrementoRadio = 25
     local conf = configuraciones[element.symbol]
 
-    -- Modelo de Bohr centrado claramente en la pantalla
+    -- Modelo Bohr centrado
     for i = 1, #conf do
         local radio = radioInicial + incrementoRadio * (i - 1)
 
@@ -96,12 +95,12 @@ showElementDetails = function(element)
         end
     end
 
-    -- Texto Configuración Bohr separado claramente
+    -- Descripcion del modelo Bohr mostrado
     local orbitalText = display.newText(mainGroup,
         "Modelo de Bohr: "..element.electrons.." electrones ("..table.concat(conf,",")..")",
         CW/2, CH/2 + 90, native.systemFont, 16)
 
-    -- Información general más abajo y con buena separación
+    -- Info
     local info = display.newText(mainGroup, 
         "Peso atómico: "..element.weight.."\n"..
         "Electrones: "..element.electrons.."\n"..
@@ -109,12 +108,12 @@ showElementDetails = function(element)
         "Neutrones: "..element.neutrons,
         CW/2, CH/2 + 150, native.systemFont, 16)
 
-    -- Botón regresar con buena separación inferior
+    -- BTn REgresar
     local backButton = display.newText(mainGroup, "Regresar a la lista", CW/2, CH - 25, native.systemFontBold, 18)
     backButton:setFillColor(0,0.4,1)
 
     backButton:addEventListener("tap", drawElementList)
 end
 
--- Iniciar app dibujando la lista
+-- Dibujamos lista
 drawElementList()
