@@ -135,7 +135,9 @@ local sequence_2 = {
 
 local btn_atacar = display.newImageRect("atacar.png", 100, 100)
 btn_atacar.x = CW - 200; btn_atacar.y = 150
-
+btn_atacar.anchorX = 0; btn_atacar.anchorY = 0
+btn_atacar:scale(-1,-1)
+--btn_atacar.rotation = 180
 function reanudarAtaque()
     sprite.puedeAtacar = true
 end
