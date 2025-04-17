@@ -29,8 +29,12 @@ local sequence =     {
 }
 local cazador = display.newSprite(sprite_sheet_1, sequence)
 cazador.x = CW/2
-cazador.y = CH/4
+cazador.y = CH/8
 cazador:play()
+cazador.nombre = "Cazador"
+cazador.botas = 0.1
+-- cazador.gravityScale = 0
+-- physics.addBody(cazador, "static", { radius = 100 })
 
 local box_options = {
     halfWidth = CW/2,
@@ -47,18 +51,49 @@ local box_cazador = {
 local piso = display.newImageRect("piso.png", 580, 252)
 piso.x = CW/2
 piso.y = CH - 100
+piso.nombre = "Piso"
 
 local f1 = display.newImageRect("fruta.png", 100, 100)
 f1.x = CW/2 -25
-f1.y = CH -200
+f1.y = CH -250
+f1.anchorX = 0.5; f1.anchorY = 0.5;
+f1.nombre = "Fruta"
 
 
 physics.start()
 print(physics.getGravity())
-physics.setDrawMode("hybrid")
-physics.addBody(cazador, "dynamic", {box =box_cazador,density=2, bounce = 0.2})
-cazador.isFixedRotation = false
---physics.setGravity(0, 0)
-physics.addBody(piso, "static", {box = box_options, bounce = 0.2})
+
+physics.setDrawMode("debug")
+physics.addBody(cazador, "dynamic", {box =box_cazador,density=1, density = 3, bounce = 0.2, friction = cazador.botas })
+cazador.isFixedRotation = true
+physics.setGravity(0, 9.8)
+cazador.gravityScale = 0
+physics.addBody(piso, "static", {box = box_options, bounce = 0.2, friction = 0.1})
 print(piso.bodyType.bounce)
-physics.addBody(f1, "kinematic", {radius=50, bounce = 0.2 })
+physics.addBody(f1, "kinematic", {radius=50, bounce = 0.2, density = 2 })
+
+function preCollisionEvent(self, event)
+   -- print("La colision se dio entre " .. self.nombre .. " precolisiono con "  .. event.other.nombre)
+end
+
+function postCollisionEvent(self, event)
+    print("Post collision)")
+    local otro = event.other
+    if otro.nombre == "Fruta"  then
+        print("Colisione con la fruta")
+        timer.performWithDelay(100, function()
+            otro.bodyType = "dynamic"
+            otro:applyLinearImpulse(-5, -5, f1.x-50, f1.y)
+        end
+         )
+        else 
+            print(otro.nombre )
+            event.target:applyForce(0, -400, event.target.x, event.target.y)   
+    end
+    otro:setFillColor(255, 0, 0)
+end
+
+cazador.preCollision = preCollisionEvent
+cazador.postCollision = postCollisionEvent
+cazador:addEventListener("preCollision", cazador)
+cazador:addEventListener("postCollision", cazador)
