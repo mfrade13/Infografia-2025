@@ -67,7 +67,7 @@ physics.setDrawMode("debug")
 physics.addBody(cazador, "dynamic", {box =box_cazador,density=1, density = 3, bounce = 0.2, friction = cazador.botas })
 cazador.isFixedRotation = true
 physics.setGravity(0, 9.8)
-cazador.gravityScale = 0
+cazador.gravityScale = 1
 physics.addBody(piso, "static", {box = box_options, bounce = 0.2, friction = 0.1})
 print(piso.bodyType.bounce)
 physics.addBody(f1, "kinematic", {radius=50, bounce = 0.2, density = 2 })
@@ -83,7 +83,10 @@ function postCollisionEvent(self, event)
         print("Colisione con la fruta")
         timer.performWithDelay(100, function()
             otro.bodyType = "dynamic"
-            otro:applyLinearImpulse(-5, -5, f1.x-50, f1.y)
+          --  otro:applyLinearImpulse(-5, -5, f1.x-50, f1.y)
+          -- local distanceJoint = physics.newJoint( "distance", bodyA, bodyB, anchorA_x, anchorA_y, anchorB_x, anchorB_y )
+        local jointDistancia = physics.newJoint("distance", self, otro, self.x-20, self.y-100, otro.x, otro.y  )
+            jointDistancia.length = 200
         end
          )
         else 
