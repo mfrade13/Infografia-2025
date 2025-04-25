@@ -1,0 +1,2088 @@
+fileFormatVersion: 2
+guid: 05f7a818238e52a4c9e2e40248f056be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2069927340776538128
+    second: LunaticCultistSprite_0
+  - first:
+      213: -7624953165173077555
+    second: LunaticCultistSprite_1
+  - first:
+      213: 6781060267053793961
+    second: LunaticCultistSprite_2
+  - first:
+      213: -722099348990895526
+    second: LunaticCultistSprite_3
+  - first:
+      213: -5263166434455050031
+    second: LunaticCultistSprite_4
+  - first:
+      213: -7913725881781382362
+    second: LunaticCultistSprite_5
+  - first:
+      213: -8456346603817413836
+    second: LunaticCultistSprite_6
+  - first:
+      213: 3840100375737203579
+    second: LunaticCultistSprite_7
+  - first:
+      213: -8608963913580109064
+    second: LunaticCultistSprite_8
+  - first:
+      213: -9137717641882107664
+    second: LunaticCultistSprite_9
+  - first:
+      213: -250719939974346456
+    second: LunaticCultistSprite_10
+  - first:
+      213: -399969590535431374
+    second: LunaticCultistSprite_11
+  - first:
+      213: 6451505738692812173
+    second: LunaticCultistSprite_12
+  - first:
+      213: -2428146331878057162
+    second: LunaticCultistSprite_13
+  - first:
+      213: -8313956377573217928
+    second: LunaticCultistSprite_14
+  - first:
+      213: 9048050887869712459
+    second: LunaticCultistSprite_15
+  - first:
+      213: 5411760188989368089
+    second: LunaticCultistSprite_16
+  - first:
+      213: 573116561468014490
+    second: LunaticCultistSprite_17
+  - first:
+      213: 7491147304502013559
+    second: LunaticCultistSprite_18
+  - first:
+      213: -6261683938951882865
+    second: LunaticCultistSprite_19
+  - first:
+      213: -8411745513703585357
+    second: LunaticCultistSprite_20
+  - first:
+      213: -2243143279292854907
+    second: LunaticCultistSprite_21
+  - first:
+      213: -7633560380328144386
+    second: LunaticCultistSprite_22
+  - first:
+      213: 814899723316718801
+    second: LunaticCultistSprite_23
+  - first:
+      213: 5291967934990656840
+    second: LunaticCultistSprite_24
+  - first:
+      213: 1339345387291362625
+    second: LunaticCultistSprite_25
+  - first:
+      213: -4942878547635790378
+    second: LunaticCultistSprite_26
+  - first:
+      213: -9135462114229161419
+    second: LunaticCultistSprite_27
+  - first:
+      213: -791285652237149994
+    second: LunaticCultistSprite_28
+  - first:
+      213: 406166799334304344
+    second: LunaticCultistSprite_29
+  - first:
+      213: 3537214100575711081
+    second: LunaticCultistSprite_30
+  - first:
+      213: -329377511907742350
+    second: LunaticCultistSprite_31
+  - first:
+      213: 7227740357293472463
+    second: LunaticCultistSprite_32
+  - first:
+      213: 6265110020782910423
+    second: LunaticCultistSprite_33
+  - first:
+      213: 4177187176294231840
+    second: LunaticCultistSprite_34
+  - first:
+      213: -1158090999518834129
+    second: LunaticCultistSprite_35
+  - first:
+      213: -5455709509924066962
+    second: LunaticCultistSprite_36
+  - first:
+      213: -4425554457429578923
+    second: LunaticCultistSprite_37
+  - first:
+      213: 4060053567904377891
+    second: LunaticCultistSprite_38
+  - first:
+      213: 5917029398717898746
+    second: LunaticCultistSprite_39
+  - first:
+      213: -5246581041123544578
+    second: LunaticCultistSprite_40
+  - first:
+      213: 276044258056280232
+    second: LunaticCultistSprite_41
+  - first:
+      213: 836964870848369280
+    second: LunaticCultistSprite_42
+  - first:
+      213: -4514736336609987449
+    second: LunaticCultistSprite_43
+  - first:
+      213: -1216933123756686985
+    second: LunaticCultistSprite_44
+  - first:
+      213: -5141828009394033776
+    second: LunaticCultistSprite_45
+  - first:
+      213: -175463738883276440
+    second: LunaticCultistSprite_46
+  - first:
+      213: 7847083031849775654
+    second: LunaticCultistSprite_47
+  - first:
+      213: 1144469136030779849
+    second: LunaticCultistSprite_48
+  - first:
+      213: -4879030683207519709
+    second: LunaticCultistSprite_49
+  - first:
+      213: -7084498400478586241
+    second: LunaticCultistSprite_50
+  - first:
+      213: 1921439428061567386
+    second: LunaticCultistSprite_51
+  - first:
+      213: 9085024770487969131
+    second: LunaticCultistSprite_52
+  - first:
+      213: -6033454618133305180
+    second: LunaticCultistSprite_53
+  - first:
+      213: -1772580265513376370
+    second: LunaticCultistSprite_54
+  - first:
+      213: -291087016748185054
+    second: LunaticCultistSprite_55
+  - first:
+      213: 8509258761216241981
+    second: LunaticCultistSprite_56
+  - first:
+      213: -7303432863352389270
+    second: LunaticCultistSprite_57
+  - first:
+      213: -6023250186756032175
+    second: LunaticCultistSprite_58
+  - first:
+      213: -9156855098316650042
+    second: LunaticCultistSprite_59
+  - first:
+      213: 6989086130548283537
+    second: LunaticCultistSprite_60
+  - first:
+      213: -3544694759535008755
+    second: LunaticCultistSprite_61
+  - first:
+      213: -2825881768610149196
+    second: LunaticCultistSprite_62
+  - first:
+      213: -556024661590799740
+    second: LunaticCultistSprite_63
+  - first:
+      213: -3347099513522511517
+    second: LunaticCultistSprite_64
+  - first:
+      213: -5485322211226616357
+    second: LunaticCultistSprite_65
+  - first:
+      213: 6440299905245068804
+    second: LunaticCultistSprite_66
+  - first:
+      213: 9069657688233080789
+    second: LunaticCultistSprite_67
+  - first:
+      213: -3805112944511374567
+    second: LunaticCultistSprite_68
+  - first:
+      213: 3702387691213903854
+    second: LunaticCultistSprite_69
+  - first:
+      213: 7273001850035611581
+    second: LunaticCultistSprite_70
+  - first:
+      213: -4201994368827793521
+    second: LunaticCultistSprite_71
+  - first:
+      213: 7533883051571090177
+    second: LunaticCultistSprite_72
+  - first:
+      213: 1239102557479966046
+    second: LunaticCultistSprite_73
+  - first:
+      213: 537643567617251591
+    second: LunaticCultistSprite_74
+  - first:
+      213: 1024694134804743864
+    second: LunaticCultistSprite_75
+  - first:
+      213: 4719329888500935012
+    second: LunaticCultistSprite_76
+  - first:
+      213: 2523714708984676765
+    second: LunaticCultistSprite_77
+  - first:
+      213: -3261236389001706357
+    second: LunaticCultistSprite_78
+  - first:
+      213: 4454707867366927118
+    second: LunaticCultistSprite_79
+  - first:
+      213: -3386505758169910717
+    second: LunaticCultistSprite_80
+  - first:
+      213: 97808006842493489
+    second: LunaticCultistSprite_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LunaticCultistSprite_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 962
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010cad113fbd9bc10800000000000000
+      internalID: 2069927340776538128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 962
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc94ed8be79be2690800000000000000
+      internalID: -7624953165173077555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 918
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2c142a26a2b1e50800000000000000
+      internalID: 6781060267053793961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 970
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a5bdac7769af5f0800000000000000
+      internalID: -722099348990895526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 930
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d82c88630a75f6b0800000000000000
+      internalID: -5263166434455050031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 928
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6231b9e3d3ccc2290800000000000000
+      internalID: -7913725881781382362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 598
+        width: 408
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433d1e5419505aa80800000000000000
+      internalID: -8456346603817413836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 898
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bf8ad22f6ca4530800000000000000
+      internalID: 3840100375737203579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 898
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a6eecee0d68880800000000000000
+      internalID: -8608963913580109064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 918
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00cc9e73e403180800000000000000
+      internalID: -9137717641882107664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 920
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829c8bffa83458cf0800000000000000
+      internalID: -250719939974346456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 834
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5d2bc6c5037af0800000000000000
+      internalID: -399969590535431374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 834
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ddd2da94a588950800000000000000
+      internalID: 6451505738692812173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 874
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b9db9a6cd7d4ed0800000000000000
+      internalID: -2428146331878057162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 866
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879a7ac49b4ee9c80800000000000000
+      internalID: -8313956377573217928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 826
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48c1290852219d70800000000000000
+      internalID: 9048050887869712459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_16
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 838
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ef4a183f6a1b40800000000000000
+      internalID: 5411760188989368089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 830
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fb135e97e14f700800000000000000
+      internalID: 573116561468014490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 844
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea7fc98c6e5f760800000000000000
+      internalID: 7491147304502013559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 812
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87110322a70a19a0800000000000000
+      internalID: -6261683938951882865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 770
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b946bac50a734b80800000000000000
+      internalID: -8411745513703585357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 770
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dc1797211ced0e0800000000000000
+      internalID: -2243143279292854907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 788
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19b074745201690800000000000000
+      internalID: -7633560380328144386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_23
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 722
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc6bd71bfa1f4b00800000000000000
+      internalID: 814899723316718801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_24
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 750
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84520ef7cc8d07940800000000000000
+      internalID: 5291967934990656840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 708
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1454f09988f469210800000000000000
+      internalID: 1339345387291362625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 708
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd1540462e576bb0800000000000000
+      internalID: -4942878547635790378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 746
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f45edb91583180800000000000000
+      internalID: -9135462114229161419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 642
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89a8644e9c405f0800000000000000
+      internalID: -791285652237149994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 642
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae0e15d8ef2a500800000000000000
+      internalID: 406166799334304344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_30
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 634
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f6157cb75b61130800000000000000
+      internalID: 3537214100575711081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 680
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dacb5e5e0dd6bf0800000000000000
+      internalID: -329377511907742350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_32
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 666
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca7b3d8f871e4460800000000000000
+      internalID: 7227740357293472463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_33
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 640
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db6183be5422f650800000000000000
+      internalID: 6265110020782910423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 582
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa55bea9958f930800000000000000
+      internalID: 4177187176294231840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 582
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f225a1c2f52adefe0800000000000000
+      internalID: -1158090999518834129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_36
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 534
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6961473b1d6944b0800000000000000
+      internalID: -5455709509924066962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 600
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b63c62ba54592c0800000000000000
+      internalID: -4425554457429578923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 586
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c6ffb7535385830800000000000000
+      internalID: 4060053567904377891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 516
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff9f1c63e28d1250800000000000000
+      internalID: 5917029398717898746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_40
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 516
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1388637566037b0800000000000000
+      internalID: -5246581041123544578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_41
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 560
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81bb74ac4b4d300800000000000000
+      internalID: 276044258056280232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 536
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d5689d1f7d9b00800000000000000
+      internalID: 836964870848369280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 450
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78430d1d83f6851c0800000000000000
+      internalID: -4514736336609987449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_44
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 450
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771831385c59c1fe0800000000000000
+      internalID: -1216933123756686985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 434
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2ae30bae84a8b0800000000000000
+      internalID: -5141828009394033776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_46
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 496
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86186ecb8a0a09df0800000000000000
+      internalID: -175463738883276440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 486
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622b66c117076ec60800000000000000
+      internalID: 7847083031849775654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 390
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c943859d98f1ef00800000000000000
+      internalID: 1144469136030779849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 390
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223f2f91733a4cb0800000000000000
+      internalID: -4879030683207519709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_50
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 420
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a96a37d3ecead90800000000000000
+      internalID: -7084498400478586241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_51
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 436
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991a07caf25aaa10800000000000000
+      internalID: 1921439428061567386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_52
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 334
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656f8ce4ed741e70800000000000000
+      internalID: 9085024770487969131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_53
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 386
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a869bdcdfcd44ca0800000000000000
+      internalID: -6033454618133305180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 324
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85253ad3a78667e0800000000000000
+      internalID: -1772580265513376370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_55
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 324
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0ff786e9d5fbf0800000000000000
+      internalID: -291087016748185054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 258
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31bc2462c5f61670800000000000000
+      internalID: 8509258761216241981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_57
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 258
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6187fa818ef4aa90800000000000000
+      internalID: -7303432863352389270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_58
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 102
+        width: 330
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f9112edd196ca0800000000000000
+      internalID: -6023250186756032175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 198
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c98c1d9dc05ce080800000000000000
+      internalID: -9156855098316650042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 198
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19890f35ec83ef060800000000000000
+      internalID: 6989086130548283537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042ab495e6becec0800000000000000
+      internalID: -3544694759535008755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 132
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc4dbce08378c8d0800000000000000
+      internalID: -2825881768610149196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a0687248a9848f0800000000000000
+      internalID: -556024661590799740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 66
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ab94e9b6bc81d0800000000000000
+      internalID: -3347099513522511517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_65
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 76
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf649e28830e3b0800000000000000
+      internalID: -5485322211226616357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_66
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 92
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3d1344aa806950800000000000000
+      internalID: 6440299905245068804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_67
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 76
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7f5854d95eddd70800000000000000
+      internalID: 9069657688233080789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 76
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba824ffe5813bc0800000000000000
+      internalID: -3805112944511374567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_69
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 76
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee755933df5816330800000000000000
+      internalID: 3702387691213903854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_70
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 86
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7a12a06a4eee460800000000000000
+      internalID: 7273001850035611581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_71
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fd3d972648fa5c0800000000000000
+      internalID: -4201994368827793521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_72
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1031b3c18babd8860800000000000000
+      internalID: 7533883051571090177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_73
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e551fd2063d223110800000000000000
+      internalID: 1239102557479966046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 76
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099997e9f7167700800000000000000
+      internalID: 537643567617251591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_75
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 76
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68674f2e1783e00800000000000000
+      internalID: 1024694134804743864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_76
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4696bfd878d6e7140800000000000000
+      internalID: 4719329888500935012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_77
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91c5771829060320800000000000000
+      internalID: 2523714708984676765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_78
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84c9f078c2cdb2d0800000000000000
+      internalID: -3261236389001706357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 76
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2b8c043d42dd30800000000000000
+      internalID: 4454707867366927118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342b77694f6b001d0800000000000000
+      internalID: -3386505758169910717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LunaticCultistSprite_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a29003ddb7b5100800000000000000
+      internalID: 97808006842493489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
