@@ -99,7 +99,7 @@ function scene:create(event)
         text = "SCORE: " .. score,
         x = cw / 2,
         y = 30,  
-        font = "algerian",
+        font = "cooper black",
         fontSize = 40
     })
     scoreText:setFillColor(1, 112/255, 0)
