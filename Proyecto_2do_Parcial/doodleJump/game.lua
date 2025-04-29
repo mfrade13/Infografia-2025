@@ -155,7 +155,7 @@ function scene:create(event)
             score = score + 1
             _G.currentScore = score
             if scoreText then
-                scoreText.text = "Score: " .. score
+                scoreText.text = "SCORE: " .. score
             end
             nextScoreY = nextScoreY - scoreStep
         end
@@ -163,7 +163,7 @@ function scene:create(event)
         --CREACION DE PLATAFORMAS CONSTANTE
         while ultimaPlataformaY > personaje.y - ch do
             local x = math.random(40, cw - 40)
-            ultimaPlataformaY = ultimaPlataformaY - math.random(100, 150)
+            ultimaPlataformaY = ultimaPlataformaY - 120 --math.random(100, 150)
             crearPlataforma(x, ultimaPlataformaY)
             --scoreText:toFront()
         end
