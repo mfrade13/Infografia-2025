@@ -1,0 +1,53 @@
+--
+-- For more information on build.settings, see the Project Build Settings guide at:
+-- https://docs.coronalabs.com/guide/distribution/buildSettings
+--
+
+settings =
+{
+	orientation = {
+        default = "landscapeRight", -- Fijamos a horizontal derecha
+        supported = { "landscapeRight" } -- Solo esta orientación permitida
+    },
+
+	--
+	-- Android section
+	--
+	android = {
+        -- Opcional: fuerza que el sistema NO permita rotación automática
+        supportsScreens = {
+            small = true, normal = true, large = true, xlarge = true,
+        },
+    },
+
+	--
+	-- iOS section
+	--
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UIStatusBarHidden = false,
+			UILaunchStoryboardName = "LaunchScreen",
+		},
+	},
+
+	--
+	-- Plugins section
+	--
+	plugins =
+	{
+
+	},
+
+	--
+	-- Project section
+	--
+	excludeFiles =
+	{
+		-- Exclude unnecessary files for each platform
+		all = { "Icon.png", "Icon-*dpi.png", "Images.xcassets", },
+		android = { "LaunchScreen.storyboardc", },
+	},
+}
