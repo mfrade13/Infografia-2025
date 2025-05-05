@@ -2,12 +2,12 @@ import easyocr
 import matplotlib.pyplot as plt 
 import cv2
 
-reader = easyocr.Reader(['en'])
-result = reader.readtext('sample4.jpg')
+reader = easyocr.Reader(['es'])
+result = reader.readtext('test_ci.jpeg')
 
-# print(result)
+print(result)
 
-img = plt.imread("sample4.jpg")
+img = plt.imread("test_ci.jpeg")
 
 figure = plt.figure(figsize=(15,15))
 
