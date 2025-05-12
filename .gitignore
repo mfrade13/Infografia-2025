@@ -4,3 +4,5 @@
 **/LauchScreen.storyboardc
 **/LaunchScreen.storyBoardc/
 
+*.pt
+*.weights
