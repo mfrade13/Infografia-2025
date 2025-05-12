@@ -70,16 +70,3 @@ import random
 # video.release()
 # # cv2.waitKey(-500)
 # cv2.destroyAllWindows()
-
-names = [" Leonardo", " Diana"," Mauricio"," Kevin"," Frederick"," Adriana"," Nicolas"," Gabriel"," Andres M"," Andres G"]
-
-print (names)
-res = []
-# loop through names list and randomly select a name, then add to res list until all names are selected
-while len(res) < len(names):
-    name = names[random.randint(0, len(names)-1)]
-    if name not in res:
-        res.append(name)
-
-for i, name in enumerate(res):
-    print(i, name)
